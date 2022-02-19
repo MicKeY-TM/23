@@ -1,0 +1,27 @@
+youtube,"webbrowser.open('youtube.com')"
+google,"webbrowser.open('google.com')"
+facebook,"webbrowser.open('facebook.com')"
+play_music,"music_dir='E:\\Music\\Song rap'
+songs=os.listdir(music_dir)
+print(songs)
+os.startfile(os.path.join(music_dir,songs[0]))"
+time,"staTime= datetime.datetime.now().strftime('%Hhour%Mminute%Ssecond%p')
+speak(f'Sir the date is{staTime}')"
+date,"staTime= datetime.datetime.now().strftime('%A-%d-%B-%Y')
+speak(f'Sir Today is{staTime}')"
+day,"staTime= datetime.datetime.now().strftime('%A')
+speak(f'Sir the time is{staTime}')"
+doing,"speak('helping you')"
+your name,"speak('Mickey..')"
+are you married,"speak('No  sir.. i\'m a robot..')"
+i love_you,"speak('ohh! thank you sir! it\'s my pleasure')"
+you,"speak('I AM YOUR LOVELY asisten..Mickey..')"
+something,"speak('what should i say? sir..')"
+say,"say=query.replace('say','')
+say=say.replace('sir','')
+speak('whatshould i say? sir..')if (say =='')else speak(f'{say}..sir..')"
+tell me,"speak('What should i say sir..?')"
+hey,"speak('hello sir!...... how may i help you?')"
+
+
+
